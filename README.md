@@ -3,6 +3,8 @@
 Language: [English](https://github.com/PIG-007/pwnDockerAll/blob/master/README_en-US.md) | [中文简体](https://github.com/PIG-007/pwnDockerAll/blob/master/README.md)
 
 只用几个命令建立PWN环境，只需要Docker!
+## Nameless-fork版本添加内容
+对于2.34版本，通过curl下载python3.10的pip解决高版本python collections 库和低版本引用不一致而导致未能成功安装pip3的bug，并添加了ropper、glibc-all-in-one、one_gadget和patchelf这些常用的pwn题工具，以便一个支持docker的虚拟机就可覆盖所有pwn题所需环境
 
 ## Docker镜像包含
 
