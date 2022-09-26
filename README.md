@@ -23,6 +23,7 @@ cd ~/
 git clone https://github.com/PIG-007/pwnDockerAll.git 
 #git clone https://gitee.com/Piggy007/pwnDockerAll.git
 cd pwnDockerAll
+chmod a+x install.sh
 chmod a+x setup.sh
 sudo ./setup.sh [libc_version]
 #such as this:
